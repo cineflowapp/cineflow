@@ -28,6 +28,11 @@
   --grey-95: #F1F1F3;
   --grey-97: #F7F7F8;
   --grey-99: #FCFCFD;
+
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
 }
 
 * {
@@ -36,8 +41,6 @@
   box-sizing: border-box;
 }
 
-body, input, textarea, button {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
+button, input {
+  font-family: inherit;
 }

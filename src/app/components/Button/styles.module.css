@@ -1,6 +1,9 @@
 .button {
     display: flex;
     padding: 14px 24px;
+    font-size: 18px;
+    font-weight: var(--font-semibold);
+    color: var(--white);
     align-items: center;
     gap: 4px;
     border-radius: 8px;

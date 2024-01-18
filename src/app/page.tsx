@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <h1>Home</h1>
-      <Button content="Teste"/>
-      <Button icon={<PlayBtnIcon />} content="Teste"/>
+      <Button content="Movies"/>
+      <Button icon={<PlayBtnIcon />} content="Play Now"/>
     </>
   )
 }
